@@ -18,6 +18,7 @@
 
 - Open repository 
     - Type `cd [repo_name].git`
+    - Type `code .`
 
 - Create flask.env file
     - Type `touch flask.env`
@@ -27,15 +28,15 @@
     - create an elephant sql instace by following the link: `https://www.elephantsql.com/`
     - update models.py file to app.config['SQLALCHEMY_DATABASE_URI'] = `postgresql=[sql_instance]`
 
--To install dependencies type the following:
+- To install dependencies type the following:
     - Type `pip install pipenv`
     - Type `pipenv install`
     - Type `pipenv shell`
 
--To seed database
+- To seed database
     - type `python seed.py`
 
--To run local host
+- To run local host
     -type `python app.py`
     -local host will run on 4000
 
