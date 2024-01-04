@@ -39,7 +39,7 @@
 
 - To run local host
     - type `python app.py`
-    - local host will run on 4000
+    - local host will run on 5000
 
 ## Endpoints
 
