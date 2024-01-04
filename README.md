@@ -37,8 +37,8 @@
     - type `python seed.py`
 
 - To run local host
-    -type `python app.py`
-    -local host will run on 4000
+    - type `python app.py`
+    - local host will run on 4000
 
 ## Endpoints
 
