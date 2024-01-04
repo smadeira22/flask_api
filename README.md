@@ -30,8 +30,9 @@
 
 - To install dependencies type the following:
     - Type `pip install pipenv`
-    - Type `pipenv install`
     - Type `pipenv shell`
+    - Type `pipenv install`
+    - 
 
 - To seed database
     - type `python seed.py`
