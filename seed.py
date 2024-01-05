@@ -1,5 +1,5 @@
 from application import db
-from application.models import CryptoCurrency
+from application.cryptoCurrencies.model import CryptoCurrency
 
 db.drop_all()
 print("Dropping Database")

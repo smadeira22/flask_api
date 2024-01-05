@@ -11,8 +11,7 @@ app.json_provider_class.sort_keys = False
 
 CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ["SQLALCHEMY_DATABASE_URI"]
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://gsltdkng:oUjS-P6qR2Y3Kr3NR4JK-hfHrvLnuS_m@tyke.db.elephantsql.com/gsltdkng"
 
 db = SQLAlchemy(app)
 
-from application import routes
